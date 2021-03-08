@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit
 
 abstract class CommonWebDao<T> : IDAO<T> {
     private val mBaseUrl = "http://api.currencylayer.com"
-    private val mAccessKey = "c7ae2f2c0aa3aea953fd509924db71bb"
+    private val mAccessKey = "bc74bf1ae83bd40ef26b797a5f65788a"
 
     protected fun createBaseUrlBuilder() = mBaseUrl
         .toHttpUrl()
