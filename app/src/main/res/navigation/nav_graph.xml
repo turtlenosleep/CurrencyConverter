@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/currencyConversionFragment">
+
+    <fragment
+        android:id="@+id/currencyConversionFragment"
+        android:name="tw.com.robert.yu.paypay.currencyconverter.conversion.CurrencyConversionFragment"
+        android:label="conversionFragment"
+        tools:layout="@layout/currency_conversion_fragement">
+    </fragment>
+
+</navigation>
